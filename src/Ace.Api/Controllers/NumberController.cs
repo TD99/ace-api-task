@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using Tcraft.Ace.Api.Core;
+using Tcraft.Ace.Api.Properties;
 
 namespace Tcraft.Ace.Api.Controllers
 {
@@ -16,7 +17,7 @@ namespace Tcraft.Ace.Api.Controllers
         {
             if (n is < 0 or > 50)
             {
-                return BadRequest(Properties.Resources.FibonacciNumberNotInRange);
+                return BadRequest(Resources.FibonacciNumberNotInRange);
             }
 
             var number = Utils.Fibonacci(n);
