@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using Tcraft.Ace.Api.Models;
+using Tcraft.Ace.Api.Properties;
 
 namespace Tcraft.Ace.Api.Controllers
 {
@@ -23,7 +24,7 @@ namespace Tcraft.Ace.Api.Controllers
             if (kelvin.HasValue)
                 return Ok(Temperature.FromKelvin(kelvin.Value));
 
-            var message = string.Format(Properties.Resources.InvalidTemperatureConversionRequest, baseUrl);
+            var message = string.Format(Resources.InvalidTemperatureConversionRequest, baseUrl);
 
             return BadRequest(message);
         }

@@ -21,7 +21,7 @@ namespace Tcraft.Ace.Api.Controllers
             switch (limit)
             {
                 case 0:
-                    var message = string.Format(Properties.Resources.InvalidPrimeNumberLimitRequest, baseUrl);
+                    var message = string.Format(Resources.InvalidPrimeNumberLimitRequest, baseUrl);
                     return BadRequest(message);
                 case < 1 or > 10000:
                     return BadRequest(Resources.PrimeNumberLimitNotInRange);

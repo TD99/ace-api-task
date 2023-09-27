@@ -534,9 +534,6 @@ FodyWeavers.xsd
 **/serviceDependencies.*.json
 **/serviceDependencies.json
 
-# Ignore generated resource files
-**/Resources.Designer.cs
-
 # Ignore publish profiles
 **/PublishProfiles/*.pubxml
 **/PublishProfiles/*.pubxml.user
