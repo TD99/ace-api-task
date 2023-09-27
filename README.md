@@ -44,7 +44,7 @@ The API provides the following endpoints:
    - Description: Generates the nth Fibonacci number.
    - Example: To get the 10th Fibonacci number, you would use [/api/number?n=10](https://ace-api.cloud.tcraft.ch/api/number?n=10)
 
-_Please refer to the [Postman Collection](src\Ace.Api\ace_api.postman_collection.json) for more details on how to use these endpoints._
+_Please refer to the [Postman Collection](src/Ace.Api/ace_api.postman_collection.json) for more details on how to use these endpoints._
 
 ## Testing
 
