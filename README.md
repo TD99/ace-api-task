@@ -6,8 +6,8 @@ This is a demo project for a job interview with ACE digital solutions. The proje
 
 You can access the demo at the following URLs:
 
-- Primary: [https://ace-api.cloud.tcraft.ch/\*](https://ace-api.cloud.tcraft.ch/)
-- Fallback: [https://ace-api20230927212456.azurewebsites.net/\*](https://ace-api20230927212456.azurewebsites.net/)
+- (🛑 not running) Primary: [https://ace-api.cloud.tcraft.ch/\*](https://ace-api.cloud.tcraft.ch/)
+- (🛑 not running) Fallback: [https://ace-api20230927212456.azurewebsites.net/\*](https://ace-api20230927212456.azurewebsites.net/)
 
 _Please replace \* with the specific API endpoint you want to access._
 
